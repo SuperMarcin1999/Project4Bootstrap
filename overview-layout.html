@@ -14,9 +14,51 @@
 </head>
 <body>
     <div class="container">
-        <div class="col"></div>
-        <div class="col"></div>
-        <div class="col"></div>
+        <!-- col jest 12 -->
+        <!-- jednostki: xs (brak w Bootstrap 5), 
+            sm, md, lg, xl -->
+        <div class="row">
+            <!-- <div class="col-2">COL1</div>
+            <div class="col-6">COL2</div>
+            <div class="col">COL3</div> -->
+
+            <!-- Odrwrotnie to dziala jak z media query,
+            to oznacza ze dla dla malej szerokosci,
+            po jego osiagnieciu, pojawiaja sie kolumny te moje 3
+            i czym wiekszy ekran, te kolumny istnieja i rozszerzaja sie  -->
+            
+            <!-- Bez niczego  -->
+            <div class="col-2"><h1>COL1-xl</h1></div>
+            <div class="col-6"><h1>COL2-xl</h1></div>
+            <div class="col-4"><h1>COL3-xl</h1></div>
+            
+            <div class="col-sm-2"><h1>COL1-sm</h1></div>
+            <div class="col-sm-6"><h1>COL2-sm</h1></div>
+            <div class="col-sm-4"><h1>COL3-sm</h1></div>
+
+            <div class="col-md-2"><h1>COL1-md</h1></div>
+            <div class="col-md-6"><h1>COL2-md</h1></div>
+            <div class="col-md-4"><h1>COL3-md</h1></div>
+
+            <div class="col-lg-2"><h1>COL1-lg</h1></div>
+            <div class="col-lg-6"><h1>COL2-lg</h1></div>
+            <div class="col-lg-4"><h1>COL3-lg</h1></div>
+            
+            <div class="col-xl-2"><h1>COL1-xl</h1></div>
+            <div class="col-xl-6"><h1>COL2-xl</h1></div>
+            <div class="col-xl-4"><h1>COL3-xl</h1></div>                    
+
+            <!-- Jesli chcesz zeby kazdy przeskot/wybrane zmienialy
+            proporcje, to mozesz: -->
+
+            <div class="col-sm-2 col-md-4 col-lg-7"><h1>COL1 multi</h1></div>
+            <div class="col-sm-6 col-md-4 col-lg-3"><h1>COL2 multi</h1></div>
+            <div class="col-sm-4 col-md-4 col-lg-2"><h1>COL3 multi</h1></div>
+
+            <!-- <div class="col-sm-2"><h1>COL1</h1></div>
+            <div class="col-sm-6"><h1>COL2</h1></div>
+            <div class="col-sm-4"><h1>COL3</h1></div> -->
+        </div>
     </div>
 </body>
 </html>
