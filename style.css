@@ -6,3 +6,10 @@ body {
 h1 {
     font-family: 'Abril Fatface', serif;
 }
+.drop-shadow {
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.137);
+}
+.lead {
+    color: white;
+    font-size: 2.2rem;
+}
